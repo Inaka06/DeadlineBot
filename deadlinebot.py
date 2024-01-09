@@ -141,4 +141,4 @@ async def hapustugas(ctx):
     list_tugas = load_tasks()
     await ctx.send('Semua tugas telah dihapus dari file.')
 
-bot.run('bottoken')
+bot.run('token')
